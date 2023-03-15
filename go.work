@@ -1,3 +1,6 @@
 go 1.20
 
-use ./reverse-the-string
+use (
+	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving
+	./reverse-the-string
+)
