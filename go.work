@@ -1,6 +1,8 @@
 go 1.20
 
 use (
-	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving
+	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/count-factor
+	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/is-prime
+	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/square-root-of-a-number
 	./reverse-the-string
 )
