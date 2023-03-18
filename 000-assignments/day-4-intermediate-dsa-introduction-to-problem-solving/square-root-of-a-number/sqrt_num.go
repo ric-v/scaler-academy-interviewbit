@@ -1,5 +1,10 @@
 package numsqrt
 
+// Sqrt returns the square root of A
+// if A is a perfect square, then return the square root
+// else, return -1
+//
+// Time Complexity: O(n)
 func Sqrt(A int) int {
 
 	if A < 0 {

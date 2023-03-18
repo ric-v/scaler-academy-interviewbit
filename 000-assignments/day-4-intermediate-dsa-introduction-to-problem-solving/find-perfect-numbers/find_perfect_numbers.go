@@ -22,6 +22,8 @@ import (
 */
 // by applying this knowledge, find the other factor of A by doing A/i
 // hence, on each iteration do, result = result + i + (A/i), if A/i is not same as A.
+// 
+// Time Complexity: O(sqrt(n))
 func FindPerfectNumbers(A int) int {
 
 	// if A is not a +ve num, return 0

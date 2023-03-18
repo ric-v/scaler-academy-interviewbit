@@ -17,6 +17,8 @@ _______
 12	2
 24	1
 */
+// 
+// Time Complexity: O(sqrt(n))
 func CountFactor(n int) (c int) {
 
 	// since factors can be duplicated with i, n/i formulae,
