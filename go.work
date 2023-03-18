@@ -5,6 +5,7 @@ use (
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/count-of-primes
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/find-perfect-numbers
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/is-prime
+	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/make-it
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/square-root-of-a-number
 	./reverse-the-string
 )
