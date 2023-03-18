@@ -1,1 +1,1 @@
-# interviewbit-workouts
+# interviewbit-workouts from Scaler Academy
