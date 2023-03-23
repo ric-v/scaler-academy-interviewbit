@@ -26,3 +26,11 @@ func TestSecondLargest(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkSecondLargest-8   	 9616588	       117.9 ns/op	       0 B/op	       0 allocs/op
+func BenchmarkSecondLargest(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		// input of len 100
+		SecondLargest([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
+	}
+}

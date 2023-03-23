@@ -28,3 +28,10 @@ func TestLinearSearchMultipleOccurences(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkLinearSearchMultipleOccurences-8   	24349117	        49.42 ns/op	       0 B/op	       0 allocs/op
+func BenchmarkLinearSearchMultipleOccurences(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		LinearSearchMultipleOccurences([]int{8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6, 8, 1, 2, 2, 3, 8, 4, 5, 7, 6}, 8)
+	}
+}
