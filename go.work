@@ -7,5 +7,10 @@ use (
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/is-prime
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/make-it
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/square-root-of-a-number
+	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/array-rotation
+	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/count-of-elements
+	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/good-pair
+	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/reverse-in-a-range
+	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/reverse-the-array
 	./reverse-the-string
 )
