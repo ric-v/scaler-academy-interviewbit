@@ -1,7 +1,7 @@
 package countofelements
 
 // CountOfElements returns the number of elements in A that are strictly less than the maximum element in A.
-// 
+//
 // Time complexity: O(n)
 func CountOfElements(A []int) int {
 	var c, max int
@@ -9,11 +9,11 @@ func CountOfElements(A []int) int {
 		if A[i] > max {
 			max = A[i]
 			c = i
-		} else if A[i] != max {
+		} else if A[i] == max {
 			c++
 		}
 	}
-	return c
+	return len(A) - c - 1
 }
 
 func CountOfElements_Unoptimized(A []int) int {
