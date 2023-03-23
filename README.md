@@ -18,6 +18,10 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Good Pair](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/good-pair/)
     - [Reverse in a Range](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/reverse-in-a-range/)
     - [Reverse the Array](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/reverse-the-array/)
+    - [Second Largest](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/second-largest/)
+    - [Time to Equality](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/time-to-equality/)
+    - [Linear Search - Multiple Occurences](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/linear-search-multiple-occurences/)
+    - [Max Min of an Array](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/max-min-of-an-array/)
 
 ## Problems
 - [Reverse the String](./reverse-the-string/)
