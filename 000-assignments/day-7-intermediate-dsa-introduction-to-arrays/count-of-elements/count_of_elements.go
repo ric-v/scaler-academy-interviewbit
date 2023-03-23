@@ -8,12 +8,12 @@ func CountOfElements(A []int) int {
 	for i := 0; i < len(A); i++ {
 		if A[i] > max {
 			max = A[i]
-			c = i
+			c = 0
 		} else if A[i] == max {
 			c++
 		}
 	}
-	return len(A) - c - 1
+	return (len(A) - 1) - c
 }
 
 func CountOfElements_Unoptimized(A []int) int {
