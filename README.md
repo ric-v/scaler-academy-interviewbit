@@ -1,4 +1,4 @@
-# interviewbit-workouts from Scaler Academy
+# scaler-academy-interviewbit
 
 This repository contains my solutions to the problems in the [Scaler Academy](https://www.scaler.com/academy/) course on [InterviewBit](https://www.interviewbit.com/).
 
