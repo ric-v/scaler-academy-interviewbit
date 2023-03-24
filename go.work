@@ -16,5 +16,9 @@ use (
 	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/reverse-the-array
 	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/second-largest
 	./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/time-to-equality
+	./000-assignments/day-8-intermediate-dsa-prefix-sum/equilibrium-index-of-an-array
+	./000-assignments/day-8-intermediate-dsa-prefix-sum/even-numbers-in-a-range
+	./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum
+	./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query
 	./reverse-the-string
 )

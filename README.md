@@ -22,6 +22,11 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Time to Equality](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/time-to-equality/)
     - [Linear Search - Multiple Occurences](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/linear-search-multiple-occurences/)
     - [Max Min of an Array](./000-assignments/day-7-intermediate-dsa-introduction-to-arrays/max-min-of-an-array/)
+- [Prefix Sum](./000-assignments/day-8-intermediate-dsa-prefix-sum/)
+    - [Equilibrium Index of an Array](./000-assignments/day-8-intermediate-dsa-prefix-sum/equilibrium-index-of-an-array/)
+    - [Even Numbers in a Range](./000-assignments/day-8-intermediate-dsa-prefix-sum/even-numbers-in-a-range/)
+    - [In-Place Prefix Sum](./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum/)
+    - [Range Sum Query](./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query/)
 
 ## Problems
 - [Reverse the String](./reverse-the-string/)
