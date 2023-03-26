@@ -19,6 +19,7 @@ use (
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/equilibrium-index-of-an-array
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/even-numbers-in-a-range
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum
+	./000-assignments/day-8-intermediate-dsa-prefix-sum/product-array-puzzle
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query
 	./reverse-the-string
 )
