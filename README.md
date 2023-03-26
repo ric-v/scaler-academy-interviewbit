@@ -27,6 +27,7 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Even Numbers in a Range](./000-assignments/day-8-intermediate-dsa-prefix-sum/even-numbers-in-a-range/)
     - [In-Place Prefix Sum](./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum/)
     - [Range Sum Query](./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query/)
+    - [Product Array Puzzle](./000-assignments/day-8-intermediate-dsa-prefix-sum/product-array-puzzle/)
 
 ## Problems
 - [Reverse the String](./reverse-the-string/)
