@@ -28,7 +28,11 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [In-Place Prefix Sum](./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum/)
     - [Range Sum Query](./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query/)
     - [Product Array Puzzle](./000-assignments/day-8-intermediate-dsa-prefix-sum/product-array-puzzle/)
-
+- [Carry Forward](./000-assignments/day-9-intermediate-dsa-carry-forward)
+    - [Closest Min Max](./000-assignments/day-9-intermediate-dsa-carry-forward/closest-min-max/)
+    - [Leaders in an Array](./000-assignments/day-9-intermediate-dsa-carry-forward/leaders-in-an-array/)
+    - [Special Subsequences AG 2](./000-assignments/day-9-intermediate-dsa-carry-forward/special-subsequences-ag-2/)
 ## Problems
 - [Reverse the String](./reverse-the-string/)
 - [Total Moves for Bishop](./total-moves-for-bishop/)
+- [Best Time to Buy and Sell Stocks I](./best-time-to-buy-and-sell-stocks-i/)
