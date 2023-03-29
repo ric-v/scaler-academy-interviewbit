@@ -21,9 +21,12 @@ use (
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/in-place-prefix-sum
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/product-array-puzzle
 	./000-assignments/day-8-intermediate-dsa-prefix-sum/range-sum-query
+	./000-assignments/day-9-intermediate-dsa-carry-forward/amazing-subarrays
+	./000-assignments/day-9-intermediate-dsa-carry-forward/best-time-to-buy-and-sell-stocks-i
+	./000-assignments/day-9-intermediate-dsa-carry-forward/bulbs
 	./000-assignments/day-9-intermediate-dsa-carry-forward/closest-min-max
+	./000-assignments/day-9-intermediate-dsa-carry-forward/even-subarrays
 	./000-assignments/day-9-intermediate-dsa-carry-forward/leaders-in-an-array
 	./000-assignments/day-9-intermediate-dsa-carry-forward/special-subsequences-ag-2
-	./best-time-to-buy-and-sell-stocks-i
 	./reverse-the-string
 )
