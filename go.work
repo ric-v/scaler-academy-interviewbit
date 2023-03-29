@@ -1,6 +1,10 @@
 go 1.20
 
 use (
+	./000-assignments/day-10-intermediate-dsa-subarrays/generate-all-subarrays
+	./000-assignments/day-10-intermediate-dsa-subarrays/maximum-subarray
+	./000-assignments/day-10-intermediate-dsa-subarrays/subarray-in-given-range
+	./000-assignments/day-10-intermediate-dsa-subarrays/sum-of-all-subarrays
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/count-factor
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/count-of-primes
 	./000-assignments/day-4-intermediate-dsa-introduction-to-problem-solving/find-perfect-numbers

@@ -32,6 +32,12 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Closest Min Max](./000-assignments/day-9-intermediate-dsa-carry-forward/closest-min-max/)
     - [Leaders in an Array](./000-assignments/day-9-intermediate-dsa-carry-forward/leaders-in-an-array/)
     - [Special Subsequences AG 2](./000-assignments/day-9-intermediate-dsa-carry-forward/special-subsequences-ag-2/)
+- [Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/)
+    - [Generate All Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/generate-all-subarrays/)
+    - [Maximum Subarray](./000-assignments/day-10-intermediate-dsa-subarrays/maximum-subarray/)
+    - [Subarray in Given Range](./000-assignments/day-10-intermediate-dsa-subarrays/subarray-in-given-range/)
+    - [Sum of All Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/sum-of-all-subarrays/)
+
 ## Problems
 - [Reverse the String](./reverse-the-string/)
 - [Total Moves for Bishop](./total-moves-for-bishop/)
