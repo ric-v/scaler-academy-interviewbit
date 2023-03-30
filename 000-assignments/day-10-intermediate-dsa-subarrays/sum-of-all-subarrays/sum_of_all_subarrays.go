@@ -21,7 +21,7 @@ func SumOfAllSubarrays(A []int) int64 {
 }
 
 // SumOfAllSubarrays_CarryForward returns the sum of all subarrays of an array
-// A = [1, 2, 3] => 1 + 2 + 3 + 1 + 2 + 3 + 1 + 2 + 3 = 18
+// A = [1, 2, 3] => 1 + 1+2 + 1+2+3 + 2 + 2+3 + 3 = 18
 //
 // # Carry forward the sum of the previous subarray to the next subarray
 //
@@ -29,7 +29,7 @@ func SumOfAllSubarrays(A []int) int64 {
 // Space complexity: O(1)
 func SumOfAllSubarrays_CarryForward(A []int) int64 {
 	var result int64
-
+ 
 	for i := 0; i < len(A); i++ {
 		var sum int64
 		for j := i; j < len(A); j++ {

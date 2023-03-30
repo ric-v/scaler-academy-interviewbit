@@ -26,3 +26,10 @@ func TestMaximumSubArray(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkMaximumSubArray-8   	 9836878	       117.8 ns/op	      80 B/op	       1 allocs/op
+func BenchmarkMaximumSubArray(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		MaximumSubArray(9, 14, []int{1, 2, 4, 4, 5, 5, 5, 7, 5})
+	}
+}

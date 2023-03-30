@@ -37,7 +37,8 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Maximum Subarray](./000-assignments/day-10-intermediate-dsa-subarrays/maximum-subarray/)
     - [Subarray in Given Range](./000-assignments/day-10-intermediate-dsa-subarrays/subarray-in-given-range/)
     - [Sum of All Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/sum-of-all-subarrays/)
-
+    - [Good Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/good-subarrays/)
+    - [Counting Subarrays](./000-assignments/day-10-intermediate-dsa-subarrays/counting-subarrays/)
 ## Problems
 - [Reverse the String](./reverse-the-string/)
 - [Total Moves for Bishop](./total-moves-for-bishop/)
