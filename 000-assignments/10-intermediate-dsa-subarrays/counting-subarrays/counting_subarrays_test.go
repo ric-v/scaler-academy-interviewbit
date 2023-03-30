@@ -23,3 +23,10 @@ func TestCountingSubarrays(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkCountingSubarrays-8   	142289883	         8.407 ns/op	       0 B/op	       0 allocs/op
+func BenchmarkCountingSubarrays(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		CountingSubarrays([]int{2, 5, 6}, 10)
+	}
+}

@@ -23,3 +23,10 @@ func TestGoodSubarrays(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkGoodSubarrays-8   	38478679	        31.00 ns/op	       0 B/op	       0 allocs/op
+func BenchmarkGoodSubarrays(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		GoodSubarrays([]int{1, 2, 3, 4, 5}, 4)
+	}
+}
