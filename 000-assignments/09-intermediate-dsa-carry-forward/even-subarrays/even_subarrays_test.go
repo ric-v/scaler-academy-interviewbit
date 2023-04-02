@@ -23,3 +23,10 @@ func TestEvenSubarrays(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkEvenSubarrays-8   	1000000000	         0.2924 ns/op	       0 B/op	       0 allocs/op
+func BenchmarkEvenSubarrays(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		EvenSubarrays([]int{2, 4, 8, 6})
+	}
+}
