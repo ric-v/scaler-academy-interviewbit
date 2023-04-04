@@ -25,3 +25,10 @@ func TestAntiDiagonals(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkAntiDiagonals-8   	 1427215	       878.4 ns/op	     640 B/op	      19 allocs/op
+func BenchmarkAntiDiagonals(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		AntiDiagonals([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
+	}
+}

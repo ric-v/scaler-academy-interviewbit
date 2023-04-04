@@ -25,3 +25,10 @@ func TestTransposeMatrix(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkTransposeMatrix-8   	 7582798	       156.9 ns/op	     152 B/op	       4 allocs/op
+func BenchmarkTransposeMatrix(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		TransposeMatrix([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
+	}
+}

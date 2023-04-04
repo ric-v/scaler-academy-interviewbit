@@ -35,12 +35,17 @@ use (
 	./000-assignments/10-intermediate-dsa-subarrays/maximum-subarray
 	./000-assignments/10-intermediate-dsa-subarrays/subarray-in-given-range
 	./000-assignments/10-intermediate-dsa-subarrays/sum-of-all-subarrays
+	./000-assignments/11-intermediate-dsa-2d-matrices/add-the-matrices
 	./000-assignments/11-intermediate-dsa-2d-matrices/anti-diagonals
+	./000-assignments/11-intermediate-dsa-2d-matrices/are-matrices-same
 	./000-assignments/11-intermediate-dsa-2d-matrices/column-sum
 	./000-assignments/11-intermediate-dsa-2d-matrices/main-diagonal-sum
+	./000-assignments/11-intermediate-dsa-2d-matrices/matrix-scalar-product
+	./000-assignments/11-intermediate-dsa-2d-matrices/matrix-subtraction
 	./000-assignments/11-intermediate-dsa-2d-matrices/minor-diagonal-sum
 	./000-assignments/11-intermediate-dsa-2d-matrices/rotate-matrix
 	./000-assignments/11-intermediate-dsa-2d-matrices/row-sum
+	./000-assignments/11-intermediate-dsa-2d-matrices/row-to-column-zero
 	./000-assignments/11-intermediate-dsa-2d-matrices/transpose-matrix
 	./reverse-the-string
 )
