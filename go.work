@@ -47,5 +47,9 @@ use (
 	./000-assignments/11-intermediate-dsa-2d-matrices/row-sum
 	./000-assignments/11-intermediate-dsa-2d-matrices/row-to-column-zero
 	./000-assignments/11-intermediate-dsa-2d-matrices/transpose-matrix
+	./000-assignments/12-intermediate-dsa-sliding-window/minimum-swaps
+	./000-assignments/12-intermediate-dsa-sliding-window/spiral-order-matrix-ii
+	./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-given-sum-and-length
+	./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-least-average
 	./reverse-the-string
 )
