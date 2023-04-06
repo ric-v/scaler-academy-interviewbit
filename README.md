@@ -62,6 +62,12 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Spiral Order Matrix II](./000-assignments/12-intermediate-dsa-sliding-window/spiral-order-matrix-ii/)
     - [Subarray with Given Sum and Length](./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-given-sum-and-length/)
     - [Subarray with Least Average](./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-least-average/)
+- [Interview Problems On Arrays](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/)
+    - [Majority Element](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/majority-element/)
+    - [N by 3 Repeat Number](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/n-by-3-repeat-number/)
+    - [Special Index](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/special-index/)
+    - [Sum of Even Indices](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-even-indices/)
+    - [Sum of Odd Indices](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-odd-indices/)
 
 ## Problems
 - [Reverse the String](./reverse-the-string/)

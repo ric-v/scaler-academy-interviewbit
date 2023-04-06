@@ -51,6 +51,8 @@ use (
 	./000-assignments/12-intermediate-dsa-sliding-window/spiral-order-matrix-ii
 	./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-given-sum-and-length
 	./000-assignments/12-intermediate-dsa-sliding-window/subarray-with-least-average
+	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/majority-element
+	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/n-by-3-repeat-number
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/special-index
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-even-indices
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-odd-indices
