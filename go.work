@@ -56,5 +56,6 @@ use (
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/special-index
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-even-indices
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-odd-indices
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/decimal-to-any-base
 	./reverse-the-string
 )

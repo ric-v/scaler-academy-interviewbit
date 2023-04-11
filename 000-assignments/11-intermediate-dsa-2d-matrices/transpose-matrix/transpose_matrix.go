@@ -7,12 +7,11 @@ package transposematrix
 func TransposeMatrix(A [][]int) (result [][]int) {
 	// Create a new 2D slice with the dimensions swapped
 	var n, m int = len(A), len(A[0])
-	var row, col int = len(A[0]), len(A)
 
 	// Create a new slice with the dimensions swapped
-	result = make([][]int, row)
+	result = make([][]int, m)
 	for i := range result {
-		result[i] = make([]int, col)
+		result[i] = make([]int, n)
 	}
 
 	// Copy the values from the original slice to the new slice
