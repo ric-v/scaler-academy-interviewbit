@@ -68,6 +68,14 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [Special Index](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/special-index/)
     - [Sum of Even Indices](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-even-indices/)
     - [Sum of Odd Indices](./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-odd-indices/)
+- [Bit Manipulations 1](./000-assignments/16-intermediate-dsa-bit-manipulation-1/)
+    - [Any Base to Decimal](./000-assignments/16-intermediate-dsa-bit-manipulation-1/any-base-to-decimal/)
+    - [Decimal to Any Base](./000-assignments/16-intermediate-dsa-bit-manipulation-1/decimal-to-any-base/)
+    - [Interesting Array](./000-assignments/16-intermediate-dsa-bit-manipulation-1/interesting-array/)
+    - [Single Number](./000-assignments/16-intermediate-dsa-bit-manipulation-1/single-number/)
+    - [Subarrays with Bitwise OR 1](./000-assignments/16-intermediate-dsa-bit-manipulation-1/subarrays-with-bitwise-or-1/)
+    - [XOR Sum](./000-assignments/16-intermediate-dsa-bit-manipulation-1/xor-sum/)
+- [Bit Manipulations 2](./000-assignments/17-intermediate-dsa-bit-manipulation-2/)
 
 ## Problems
 - [Reverse the String](./reverse-the-string/)
