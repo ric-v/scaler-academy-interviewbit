@@ -56,6 +56,11 @@ use (
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/special-index
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-even-indices
 	./000-assignments/13-intermediate-dsa-interview-problems-on-arrays/sum-of-odd-indices
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/any-base-to-decimal
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/decimal-to-any-base
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/interesting-array
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/single-number
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/subarrays-with-bitwise-or-1
+	./000-assignments/16-intermediate-dsa-bit-manipulation-1/xor-sum
 	./reverse-the-string
 )
