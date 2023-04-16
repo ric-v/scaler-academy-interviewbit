@@ -62,5 +62,12 @@ use (
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/single-number
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/subarrays-with-bitwise-or-1
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/xor-sum
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/check-bit
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/help-from-sam
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/number-of-1-bits
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/set-bit
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/toggle-ith-bit
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/unset-ith-bit
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/unset-x-bits-from-right
 	./reverse-the-string
 )
