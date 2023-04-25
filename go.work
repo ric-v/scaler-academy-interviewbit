@@ -63,11 +63,20 @@ use (
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/subarrays-with-bitwise-or-1
 	./000-assignments/16-intermediate-dsa-bit-manipulation-1/xor-sum
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/check-bit
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/find-nth-magic-number
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/finding-good-days
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/help-from-sam
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/number-of-1-bits
+	./000-assignments/17-intermediate-dsa-bit-manipulation-2/reverse-bits
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/set-bit
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/toggle-ith-bit
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/unset-ith-bit
 	./000-assignments/17-intermediate-dsa-bit-manipulation-2/unset-x-bits-from-right
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/concatenate-three-numbers
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/divisibility-by-3
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/divisibility-by-8
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/leap-year-III
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/mod-array
+	./000-assignments/18-intermediate-dsa-modular-arithmetic/power-with-modules
 	./reverse-the-string
 )

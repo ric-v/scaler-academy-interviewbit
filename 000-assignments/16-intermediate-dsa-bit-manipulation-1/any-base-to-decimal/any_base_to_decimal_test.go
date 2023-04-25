@@ -23,3 +23,10 @@ func TestAnyBaseToDecimal(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkAnyBaseToDecimal-8   	366305275	         3.542 ns/op	       0 B/op	       0 allocs/o
+func BenchmarkAnyBaseToDecimal(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		AnyBaseToDecimal(101, 2)
+	}
+}
