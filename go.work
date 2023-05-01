@@ -78,5 +78,24 @@ use (
 	./000-assignments/18-intermediate-dsa-modular-arithmetic/leap-year-III
 	./000-assignments/18-intermediate-dsa-modular-arithmetic/mod-array
 	./000-assignments/18-intermediate-dsa-modular-arithmetic/power-with-modules
-	./reverse-the-string
+	./000-assignments/19-intermediate-dsa-sorting/arithmetic-progression
+	./000-assignments/19-intermediate-dsa-sorting/elements-removal
+	./000-assignments/19-intermediate-dsa-sorting/factors-sort
+	./000-assignments/19-intermediate-dsa-sorting/largest-number
+	./000-assignments/19-intermediate-dsa-sorting/noble-integer
+	./000-assignments/19-intermediate-dsa-sorting/sort-by-color
+	./000-assignments/19-intermediate-dsa-sorting/ten-digit-sorting
+	./000-assignments/20-intermediate-dsa-string/count-sort
+	./000-assignments/20-intermediate-dsa-string/longest-palindromic-substring
+	./000-assignments/20-intermediate-dsa-string/reverse-the-string
+	./000-assignments/20-intermediate-dsa-string/simple-reverse
+	./000-assignments/20-intermediate-dsa-string/to-lower
+	./000-assignments/20-intermediate-dsa-string/to-upper
+	./000-assignments/20-intermediate-dsa-string/toggle-case
+	./000-assignments/26-intermediate-dsa-hashing-1/common-elements
+	./000-assignments/26-intermediate-dsa-hashing-1/count-distinct-elements
+	./000-assignments/26-intermediate-dsa-hashing-1/count-subarray-zero-sum
+	./000-assignments/26-intermediate-dsa-hashing-1/first-repeating-element
+	./000-assignments/26-intermediate-dsa-hashing-1/frequency-of-element-query
+	./000-assignments/26-intermediate-dsa-hashing-1/sub-array-with-0-sum
 )

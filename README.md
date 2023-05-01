@@ -93,6 +93,15 @@ This repository contains my solutions to the problems in the [Scaler Academy](ht
     - [leap-year-III](./000-assignments/18-intermediate-dsa-modular-arithmetic/leap-year-III/)
     - [mod-array](./000-assignments/18-intermediate-dsa-modular-arithmetic/mod-array/)
     - [power-with-modules](./000-assignments/18-intermediate-dsa-modular-arithmetic/power-with-modules/)
+- [Sorting](./000-assignments/19-intermediate-dsa-sorting/)
+    - [arithmetic-progression](./000-assignments/19-intermediate-dsa-sorting/arithmetic-progression/)
+    - [elements-removal](./000-assignments/19-intermediate-dsa-sorting/elements-removal/)
+    - [factors-sort](./000-assignments/19-intermediate-dsa-sorting/factors-sort/)
+    - [largest-number](./000-assignments/19-intermediate-dsa-sorting/largest-number/)
+    - [noble-integer](./000-assignments/19-intermediate-dsa-sorting/noble-integer/)
+    - [sort-by-color](./000-assignments/19-intermediate-dsa-sorting/sort-by-color/)
+    - [ten-digit-sorting](./000-assignments/19-intermediate-dsa-sorting/ten-digit-sorting/)
+
 ## Problems
 - [Reverse the String](./reverse-the-string/)
 - [Total Moves for Bishop](./total-moves-for-bishop/)
