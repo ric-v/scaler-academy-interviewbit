@@ -86,9 +86,12 @@ use (
 	./000-assignments/19-intermediate-dsa-sorting/sort-by-color
 	./000-assignments/19-intermediate-dsa-sorting/ten-digit-sorting
 	./000-assignments/20-intermediate-dsa-string/count-sort
+	./000-assignments/20-intermediate-dsa-string/is-alpha-num
+	./000-assignments/20-intermediate-dsa-string/longest-common-prefix
 	./000-assignments/20-intermediate-dsa-string/longest-palindromic-substring
 	./000-assignments/20-intermediate-dsa-string/reverse-the-string
 	./000-assignments/20-intermediate-dsa-string/simple-reverse
+	./000-assignments/20-intermediate-dsa-string/string-operations
 	./000-assignments/20-intermediate-dsa-string/to-lower
 	./000-assignments/20-intermediate-dsa-string/to-upper
 	./000-assignments/20-intermediate-dsa-string/toggle-case
@@ -98,4 +101,14 @@ use (
 	./000-assignments/26-intermediate-dsa-hashing-1/first-repeating-element
 	./000-assignments/26-intermediate-dsa-hashing-1/frequency-of-element-query
 	./000-assignments/26-intermediate-dsa-hashing-1/sub-array-with-0-sum
+	./000-assignments/28-intermediate-dsa-recursion-1/check-palindrome
+	./000-assignments/28-intermediate-dsa-recursion-1/find-factorial-ii
+	./000-assignments/28-intermediate-dsa-recursion-1/find-fibonacci-ii
+	./000-assignments/28-intermediate-dsa-recursion-1/print-1-to-a-function
+	./000-assignments/28-intermediate-dsa-recursion-1/print-a-to-1-function
+	./000-assignments/28-intermediate-dsa-recursion-1/print-reverse-string
+	./000-assignments/28-intermediate-dsa-recursion-1/sum-of-digits
+	./000-assignments/29-intermediate-dsa-recursion-2/implement-power-function
+	./000-assignments/29-intermediate-dsa-recursion-2/is-magic
+	./000-assignments/29-intermediate-dsa-recursion-2/kth-symbol
 )
