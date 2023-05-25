@@ -85,6 +85,9 @@ use (
 	./000-assignments/19-intermediate-dsa-sorting/noble-integer
 	./000-assignments/19-intermediate-dsa-sorting/sort-by-color
 	./000-assignments/19-intermediate-dsa-sorting/ten-digit-sorting
+	./000-assignments/20-intermediate-dsa-string/add-binary-strings
+	./000-assignments/20-intermediate-dsa-string/check-anagrams
+	./000-assignments/20-intermediate-dsa-string/count-occurences
 	./000-assignments/20-intermediate-dsa-string/count-sort
 	./000-assignments/20-intermediate-dsa-string/is-alpha-num
 	./000-assignments/20-intermediate-dsa-string/longest-common-prefix
@@ -95,6 +98,7 @@ use (
 	./000-assignments/20-intermediate-dsa-string/to-lower
 	./000-assignments/20-intermediate-dsa-string/to-upper
 	./000-assignments/20-intermediate-dsa-string/toggle-case
+	./000-assignments/21-intermediate-dsa-interview-problems/length-of-longest-consecutive-ones
 	./000-assignments/26-intermediate-dsa-hashing-1/common-elements
 	./000-assignments/26-intermediate-dsa-hashing-1/count-distinct-elements
 	./000-assignments/26-intermediate-dsa-hashing-1/count-subarray-zero-sum
@@ -111,4 +115,10 @@ use (
 	./000-assignments/29-intermediate-dsa-recursion-2/implement-power-function
 	./000-assignments/29-intermediate-dsa-recursion-2/is-magic
 	./000-assignments/29-intermediate-dsa-recursion-2/kth-symbol
+	./000-assignments/30-intermediate-dsa-linked-list-basics/compare-linked-list
+	./000-assignments/30-intermediate-dsa-linked-list-basics/insert-in-linked-list
+	./000-assignments/30-intermediate-dsa-linked-list-basics/k-th-element-in-linked-list
+	./000-assignments/30-intermediate-dsa-linked-list-basics/linked-list
+	./000-assignments/30-intermediate-dsa-linked-list-basics/print-linked-list
+	./000-assignments/38-advanced-dsa-arrays-one-dimensional/max-sum-contguous-subarray
 )
