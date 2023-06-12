@@ -120,5 +120,13 @@ use (
 	./000-assignments/30-intermediate-dsa-linked-list-basics/k-th-element-in-linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/print-linked-list
+	./000-assignments/38-advanced-dsa-arrays-one-dimensional/add-one-to-number
 	./000-assignments/38-advanced-dsa-arrays-one-dimensional/max-sum-contguous-subarray
+	./000-assignments/39-advanced-dsa-arrays-two-dimensional/maximum-submatrix-sum
+	./000-assignments/39-advanced-dsa-arrays-two-dimensional/search-in-a-row-wise-and-column-wise-sorted-matrix
+	./000-assignments/39-advanced-dsa-arrays-two-dimensional/sub-matrix-sum-queries
+	./000-assignments/39-advanced-dsa-arrays-two-dimensional/sum-of-all-submatrices
+	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced
+	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced-ii
+	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced-iii
 )
