@@ -129,4 +129,7 @@ use (
 	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced
 	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced-ii
 	./000-assignments/41-advanced-dsa-bit-manipulation/single-number-advanced-iii
+	./000-assignments/48-advanced-dsa-maths4-combinators/compute-ncr-mod-m
+	./000-assignments/48-advanced-dsa-maths4-combinators/compute-ncr-mod-p
+	./000-assignments/48-advanced-dsa-maths4-combinators/excel-column-title
 )
