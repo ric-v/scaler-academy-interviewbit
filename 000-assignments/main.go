@@ -1,62 +1,52 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
-
-/**
- * @input A : String
- * @input B : String
- *
- * @Output string.
- */
-//  O(n) + O(n) = O(2n) => O(n)
-func ModifyString(str string) string {
-	var arr []string
-	var arrNew string
-	var intArr []string
-
-	s := strings.TrimSpace(str)
-	fmt.Println(str)
-
-	for _, j := range s {
-		//fmt.Println(s[i], string(j))
-
-		if string(j) >=fmt.Sprint(0) && string(j) <= fmt.Sprint(9) {
-			intArr = append(intArr, string(j))
-
-			
-		} else {
-
-			arr = append(arr, string(j))
-		}
-
-	}
-
-
-	for j := len(arr)-1; j >= 0; j-- {
-		
-
-		arrNew =arrNew+ arr[j]
-		
-	}
-
-	return arrNew
-
-}
+import "fmt"
 
 func main() {
-	fmt.Println(ModifyString("oll123eH56"))
-	// ow ollehrld
+
+	// find rank among all possible pemutations
+	// of a given string
+	// return ans % 100000000007
+	// 1 <= len(s) <= 1000000
+	// A = acb -> 2
+	// B = bacd -> 7
+
+	fmt.Println(findRank("acb"))
+	fmt.Println(findRank("bacd"))
 }
 
-// o notation order of growth
-// O(1) - constant
-// O(log n) - logarithmic
-// O(n) - linear
-// O(n log n) - linearithmic
-// O(n^2) - quadratic
-// O(n^3) - cubic
-// O(2^n) - exponential
-// O(n!) - factorial
+func findRank(A string) int {
+	var ans int
+
+	// create a map of runes to count their occurance
+	// in the string
+	runeMap := make(map[rune]int)
+	for _, r := range A {
+		runeMap[r]++
+	}
+
+	// create a map of runes to find their occurance
+	// in the string
+	// for each rune in the runeMap, find the number
+	// of permutations possible
+	runeOccurance := make(map[rune]int)
+	for _, r := range A {
+		ans += runeMap[r] * findFactorial(len(A)-1)
+		runeOccurance[r]++
+	}
+
+	// for each rune in runeOccurance, find the number
+	// of permutations possible
+	for _, r := range A {
+		ans /= findFactorial(runeOccurance[r])
+	}
+
+	return ans % 1000000007
+}
+
+func findFactorial(n int) int {
+	if n == 0 {
+		return 1
+	}
+	return n * findFactorial(n-1)
+}
