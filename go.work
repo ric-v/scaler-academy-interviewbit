@@ -132,6 +132,8 @@ use (
 	./000-assignments/48-advanced-dsa-maths4-combinators/compute-ncr-mod-m
 	./000-assignments/48-advanced-dsa-maths4-combinators/compute-ncr-mod-p
 	./000-assignments/48-advanced-dsa-maths4-combinators/excel-column-title
+	./000-assignments/49-advanced-dsa-recursion/generate-all-paranthesis
+	./000-assignments/49-advanced-dsa-recursion/tower-of-hanoi
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/inversion-count-in-an-array
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/kth-smallest-element
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/merge-two-sorted-arrays
