@@ -137,4 +137,9 @@ use (
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/inversion-count-in-an-array
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/kth-smallest-element
 	./000-assignments/50-advanced-dsa-sorting-1-selection-and-merge/merge-two-sorted-arrays
+	./000-assignments/54-advanced-dsa-sorting3-count-and-radix/b-closest-points-to-origin
+	./000-assignments/54-advanced-dsa-sorting3-count-and-radix/count-sort2
+	./000-assignments/54-advanced-dsa-sorting3-count-and-radix/sum-the-difference
+	./000-assignments/55-advanced-dsa-searching-1-binary/binary-search
+	./000-assignments/55-advanced-dsa-searching-1-binary/sorted-insert-position
 )
