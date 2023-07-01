@@ -23,6 +23,7 @@ func TestSingleElementInSortedArray(t *testing.T) {
 	}
 }
 
+// BenchmarkSingleElementInSortedArray-8   	191057094	         6.262 ns/op	       0 B/op	       0 allocs/op
 func BenchmarkSingleElementInSortedArray(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		SingleElementInSortedArray([]int{1, 1, 2, 2, 3, 3, 4, 4, 8, 8, 9})
