@@ -145,6 +145,8 @@ use (
 	./000-assignments/55-advanced-dsa-searching-1-binary/search-for-a-range
 	./000-assignments/55-advanced-dsa-searching-1-binary/single-element-in-sorted-array
 	./000-assignments/55-advanced-dsa-searching-1-binary/sorted-insert-position
+	./000-assignments/56-advanced-dsa-searching-2-binary/ath-magical-number
+	./000-assignments/56-advanced-dsa-searching-2-binary/median-of-array
 	./000-assignments/56-advanced-dsa-searching-2-binary/rotated-sorted-array-search
 	./000-assignments/56-advanced-dsa-searching-2-binary/square-root-of-integer
 )
