@@ -24,6 +24,7 @@ func TestAggresssiveCowns(t *testing.T) {
 	}
 }
 
+// BenchmarkAggresssiveCowns-8   	 8175349	       127.8 ns/op	      72 B/op	       2 allocs/op
 func BenchmarkAggresssiveCowns(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		AggresssiveCowns([]int{1, 2, 3, 4, 5}, 3)
