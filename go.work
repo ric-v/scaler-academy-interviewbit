@@ -151,5 +151,7 @@ use (
 	./000-assignments/56-advanced-dsa-searching-2-binary/square-root-of-integer
 	./000-assignments/57-advanced-dsa-searching-3-binary-search/aggressive-cows
 	./000-assignments/57-advanced-dsa-searching-3-binary-search/painters-partition-problem
+	./000-assignments/58-advanced-dsa-two-pointers/container-with-most-water
+	./000-assignments/58-advanced-dsa-two-pointers/pairs-with-given-difference
 	./000-assignments/58-advanced-dsa-two-pointers/subarray-with-given-sum
 )
