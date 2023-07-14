@@ -153,5 +153,11 @@ use (
 	./000-assignments/57-advanced-dsa-searching-3-binary-search/painters-partition-problem
 	./000-assignments/58-advanced-dsa-two-pointers/container-with-most-water
 	./000-assignments/58-advanced-dsa-two-pointers/pairs-with-given-difference
+	./000-assignments/58-advanced-dsa-two-pointers/pairs-with-given-sum-ii
 	./000-assignments/58-advanced-dsa-two-pointers/subarray-with-given-sum
+	./000-assignments/59-advanced-dsa-hashing-1/longest-consecutive-sequence
+	./000-assignments/59-advanced-dsa-hashing-1/shaggy-and-distances
+	./000-assignments/63-advanced-dsa-strings-pattern-matching/rabin-karp
+	./000-assignments/64-advanced-dsa-linked-list-1-introduction/palindrome-list
+	./000-assignments/64-advanced-dsa-linked-list-1-introduction/reverse-linked-list
 )
