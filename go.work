@@ -98,13 +98,19 @@ use (
 	./000-assignments/20-intermediate-dsa-string/to-lower
 	./000-assignments/20-intermediate-dsa-string/to-upper
 	./000-assignments/20-intermediate-dsa-string/toggle-case
+	./000-assignments/21-intermediate-dsa-interview-problems/count-increasing-triplets
+	./000-assignments/21-intermediate-dsa-interview-problems/josephus-problem-2
 	./000-assignments/21-intermediate-dsa-interview-problems/length-of-longest-consecutive-ones
+	./000-assignments/21-intermediate-dsa-interview-problems/multiple-left-rotations-of-the-array
 	./000-assignments/26-intermediate-dsa-hashing-1/common-elements
 	./000-assignments/26-intermediate-dsa-hashing-1/count-distinct-elements
 	./000-assignments/26-intermediate-dsa-hashing-1/count-subarray-zero-sum
 	./000-assignments/26-intermediate-dsa-hashing-1/first-repeating-element
 	./000-assignments/26-intermediate-dsa-hashing-1/frequency-of-element-query
 	./000-assignments/26-intermediate-dsa-hashing-1/sub-array-with-0-sum
+	./000-assignments/27-intermediate-dsa-hasing-2/distinct-numbers-in-window
+	./000-assignments/27-intermediate-dsa-hasing-2/pair-with-given-difference
+	./000-assignments/27-intermediate-dsa-hasing-2/subarray-sum-equals-k
 	./000-assignments/28-intermediate-dsa-recursion-1/check-palindrome
 	./000-assignments/28-intermediate-dsa-recursion-1/find-factorial-ii
 	./000-assignments/28-intermediate-dsa-recursion-1/find-fibonacci-ii
@@ -115,11 +121,13 @@ use (
 	./000-assignments/29-intermediate-dsa-recursion-2/implement-power-function
 	./000-assignments/29-intermediate-dsa-recursion-2/is-magic
 	./000-assignments/29-intermediate-dsa-recursion-2/kth-symbol
+	./000-assignments/29-intermediate-dsa-recursion-2/kth-symbol-hard
 	./000-assignments/30-intermediate-dsa-linked-list-basics/compare-linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/insert-in-linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/k-th-element-in-linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/linked-list
 	./000-assignments/30-intermediate-dsa-linked-list-basics/print-linked-list
+	./000-assignments/30-intermediate-dsa-linked-list-basics/search-in-linked-list
 	./000-assignments/38-advanced-dsa-arrays-one-dimensional/add-one-to-number
 	./000-assignments/38-advanced-dsa-arrays-one-dimensional/max-sum-contguous-subarray
 	./000-assignments/39-advanced-dsa-arrays-two-dimensional/maximum-submatrix-sum
@@ -160,4 +168,7 @@ use (
 	./000-assignments/63-advanced-dsa-strings-pattern-matching/rabin-karp
 	./000-assignments/64-advanced-dsa-linked-list-1-introduction/palindrome-list
 	./000-assignments/64-advanced-dsa-linked-list-1-introduction/reverse-linked-list
+	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/merge-two-sorted-lists
+	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/middle-element-of-linked-list
+	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/sort-linked-list
 )
