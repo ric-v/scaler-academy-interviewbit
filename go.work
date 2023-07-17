@@ -170,5 +170,6 @@ use (
 	./000-assignments/64-advanced-dsa-linked-list-1-introduction/reverse-linked-list
 	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/merge-two-sorted-lists
 	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/middle-element-of-linked-list
+	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/remove-loop-from-linked-list
 	./000-assignments/65-advanced-dsa-linked-list-2-sorting-and-detecting-loop/sort-linked-list
 )
