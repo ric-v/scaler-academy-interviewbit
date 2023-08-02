@@ -176,4 +176,9 @@ use (
 	./000-assignments/02-advanced-dsa/067-stacks-1-basic-problems/balanced-paranthesis
 	./000-assignments/02-advanced-dsa/067-stacks-1-basic-problems/double-character-trouble
 	./000-assignments/02-advanced-dsa/067-stacks-1-basic-problems/evaluate-expression
+	./000-assignments/02-advanced-dsa/070-stacks-2-nearest-element/nearest-smaller-element
+	./000-assignments/02-advanced-dsa/071-queues/perfect-numbers
+	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/binary-tree-from-inorder-and-postorder
+	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/inorder-traversal
+	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/preorder-traversal
 )
