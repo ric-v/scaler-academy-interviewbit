@@ -181,4 +181,7 @@ use (
 	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/binary-tree-from-inorder-and-postorder
 	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/inorder-traversal
 	./000-assignments/02-advanced-dsa/072-trees-1-structure-and-traversal/preorder-traversal
+	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/balanced-binary-tree
+	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/level-order
+	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/vertical-order-traversal
 )
