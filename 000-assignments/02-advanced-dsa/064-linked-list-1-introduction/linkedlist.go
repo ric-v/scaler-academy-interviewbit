@@ -92,6 +92,8 @@ func reverse(ll *linkedlist.Node) *linkedlist.Node {
 
 	var prev, curr *linkedlist.Node = nil, ll
 
+	fmt.Println(min(1, 2))
+
 	for curr != nil {
 
 		forward := curr.Next
