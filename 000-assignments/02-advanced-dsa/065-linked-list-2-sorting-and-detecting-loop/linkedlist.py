@@ -71,6 +71,34 @@ class linked_list:
 
         return left.merge(right)
 
+    def detect_loop(self):
+        slow = self
+        fast = self
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
+
+    def remove_loop(self):
+        slow = self
+        fast = self
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                break
+
+        if slow == fast:
+            slow = self
+            while slow.next != fast.next:
+                slow = slow.next
+                fast = fast.next
+            fast.next = None
+
+        return self
+
 
 if __name__ == "__main__":
     ll = linked_list(1)
@@ -116,3 +144,25 @@ if __name__ == "__main__":
     print(ll)
 
     print(ll.merge_sort())
+
+    ll = linked_list(1)
+    ll.append(2)
+    ll.append(3)
+    ll.append(4)
+    ll.append(5)
+
+    print(ll.detect_loop())
+
+    ll.next.next.next.next.next = ll.next
+    print(ll.detect_loop())
+
+    ll = linked_list(1)
+    ll.append(2)
+    ll.append(3)
+    ll.append(4)
+    ll.append(5)
+
+    ll.next.next.next.next.next = ll.next
+    print(ll.detect_loop())
+    print(ll.remove_loop())
+    print(ll.detect_loop())

@@ -1,4 +1,4 @@
-go 1.21
+go 1.21.1
 
 use (
 	./000-assignments/01-intermediate-dsa/004-introduction-to-problem-solving/count-factor
@@ -186,4 +186,8 @@ use (
 	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/level-order
 	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/right-view-of-binary-tree
 	./000-assignments/02-advanced-dsa/073-trees-2-views-and-types/vertical-order-traversal
+	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/fibonacci-number
+	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/max-sum-without-adjacent-elements
+	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/min-num-of-squares
+	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/stairs
 )
