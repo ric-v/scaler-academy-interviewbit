@@ -27,6 +27,7 @@ func DeleteOne(A []int) int {
 	}
 	return gcd
 }
+
 func GCD(a, b int) int {
 	if b == 0 {
 		return a

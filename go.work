@@ -1,4 +1,4 @@
-go 1.21.1
+go 1.21.3
 
 use (
 	./000-assignments/01-intermediate-dsa/004-introduction-to-problem-solving/count-factor
@@ -137,6 +137,10 @@ use (
 	./000-assignments/02-advanced-dsa/041-bit-manipulation/single-number-advanced
 	./000-assignments/02-advanced-dsa/041-bit-manipulation/single-number-advanced-ii
 	./000-assignments/02-advanced-dsa/041-bit-manipulation/single-number-advanced-iii
+	./000-assignments/02-advanced-dsa/042-maths1-modular-arithmetic/pair-sum-divisible-by-m
+	./000-assignments/02-advanced-dsa/042-maths1-modular-arithmetic/prime-modulo-inverse
+	./000-assignments/02-advanced-dsa/042-maths1-modular-arithmetic/very-large-power
+	./000-assignments/02-advanced-dsa/046-maths2-gcd/pubg
 	./000-assignments/02-advanced-dsa/048-maths4-combinators/compute-ncr-mod-m
 	./000-assignments/02-advanced-dsa/048-maths4-combinators/compute-ncr-mod-p
 	./000-assignments/02-advanced-dsa/048-maths4-combinators/excel-column-title
