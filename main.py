@@ -1,45 +1,44 @@
-def dp(A, B):
-    """Computes the maximum tastiness that can be achieved by partitioning the first `i` chocolates into `j` partitions.
+class Solution:
+    # @param A : list of list of integers
+    # @param B : list of strings
+    # @param C : list of strings
+    # @param D : integer
+    # @return an integer
+    def solve(self, A, B, C, D):
+        graph = [[] for _ in range(D)]
+        for edge in A:
+            graph[edge[0]].append(edge[1])
+            graph[edge[1]].append(edge[0])
 
-    Args:
-      A: A list of chocolates, where A[i] denotes the tastiness of the i-th chocolate.
-      B: The number of partitions to make.
+        def can_form_word(word, start_node, visited):
+            if not word:
+                return True
 
-    Returns:
-      The maximum tastiness that can be achieved.
-    """
+            visited[start_node] = True
+            for neighbor in graph[start_node]:
+                if not visited[neighbor] and B[neighbor] == word[0]:
+                    if can_form_word(word[1:], neighbor, visited):
+                        return True
 
-    n = len(A)
-    dp = [[0] * (B + 1) for _ in range(n + 1)]
+            visted[start_node] = False
+            return False
 
-    # Initialize the base cases.
-    for i in range(n + 1):
-        dp[i][0] = 0
+        alice_score = bob_score = 0
+        for word in C:
+            for i in range(D):
+                if can_form_word(word, i, [False] * D):
+                    if len(word) % 2 == 1:
+                        alice_score += 1
+                    else:
+                        bob_score += 1
+                    break
 
-    for j in range(B + 1):
-        dp[0][j] = 0
-
-    # Compute the dynamic programming table.
-    for i in range(1, n + 1):
-        for j in range(1, B + 1):
-            dp[i][j] = max(dp[i - 1][j - 1] + A[i - 1] + A[i], dp[i - 1][j])
-
-    # Return the maximum tastiness that can be achieved.
-    return dp[n][B]
-
-
-def maximum_tastiness(A, B):
-    """Finds the maximum tastiness that can be achieved by partitioning the array A into B partitions.
-
-    Args:
-      A: A list of chocolates, where A[i] denotes the tastiness of the i-th chocolate.
-      B: The number of partitions to make.
-
-    Returns:
-      The maximum tastiness that can be achieved.
-    """
-
-    return dp(A, B)
+        return int(alice_score > bob_score)
 
 
-print(maximum_tastiness([1, 2, 3, 4, 5], 2))
+if __name__ == "__main__":
+    A = [[0, 1], [1, 2], [2, 3], [3, 4]]
+    B = ["a", "b", "c", "d", "e"]
+    C = ["abcde", "abcde", "abcde", "abcde"]
+    D = 5
+    print(Solution().solve(A, B, C, D))

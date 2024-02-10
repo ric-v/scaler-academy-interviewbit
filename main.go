@@ -2,56 +2,78 @@ package main
 
 import (
 	"fmt"
+	"math"
+	"strings"
 )
 
-func maxTastiness(A []int, B int) int {
-	low, high := 0, 0
-	for _, x := range A {
-		high += x
-	}
-
-	for low < high {
-		mid := (low + high + 1) / 2
-		partitions := countPartitions(A, mid)
-
-		if partitions >= B {
-			low = mid
-		} else {
-			high = mid - 1
-		}
-	}
-
-	return low
+func countLetters(word string) int {
+	return len(strings.ReplaceAll(word, " ", ""))
 }
 
-func countPartitions(A []int, tastinessLimit int) int {
-	partitions := 1
-	currentTastiness := 0
+func canFormWord(graph [][]int, letters []string, word string, visited map[int]bool) bool {
 
-	for _, x := range A {
-		currentTastiness += x
-		if currentTastiness > tastinessLimit {
-			partitions++
-			currentTastiness = x
+	if word == "" {
+		return true
+	}
+	for i, letter := range letters {
+		fmt.Println("letter:", letter, "word:", word)
+		if letter == string(word[0]) && !visited[i] {
+			visited[i] = true
+
+			for range graph[i] {
+				if canFormWord(graph, letters, word[1:], visited) {
+					return true
+				}
+			}
+
+			visited[i] = false
+		}
+	}
+	return false
+}
+
+func scoreGame(graph [][]int, letters []string, words []string, isAlice bool) int {
+	score := math.MinInt32
+
+	for _, word := range words {
+		visited := make(map[int]bool)
+
+		fmt.Println(word)
+		if canFormWord(graph, letters, word, visited) {
+			wordLength := countLetters(word)
+			if (isAlice && wordLength%2 == 1) || (!isAlice && wordLength%2 == 0) {
+				score++
+			}
 		}
 	}
 
-	return partitions
+	return score
+}
+
+func solve(A [][]int, B []string, C []string, D int) int {
+	graph := make([][]int, D)
+	for _, edge := range A {
+		graph[edge[0]] = append(graph[edge[0]], edge[1])
+		graph[edge[1]] = append(graph[edge[1]], edge[0])
+	}
+
+	aliceScore := scoreGame(graph, B, C, true)
+	bobScore := scoreGame(graph, B, C, false)
+
+	if aliceScore > bobScore || (aliceScore == bobScore && bobScore > 0) {
+		return 1
+	}
+
+	return 0
 }
 
 func main() {
-	input1 := []int{1, 2, 3, 4, 5}
-	B1 := 2
-	output1 := maxTastiness(input1, B1)
-	fmt.Println(output1) // Output: 15
+	input1 := [][]int{{1, 0}, {2, 1}, {0, 2}}
+	letters1 := []string{"b", "c", "a"}
+	words1 := []string{"cc", "a", "bc"}
+	D1 := 3
+	output1 := solve(input1, letters1, words1, D1)
+	fmt.Println("Input 1:", input1)
+	fmt.Println("Output 1:", output1)
 
-	input2 := []int{2, 2, 2, 2}
-	B2 := 3
-	output2 := maxTastiness(input2, B2)
-	fmt.Println(output2) // Output: 12
-
-	input3 := []int{2, 1, 8, 7, 24, 49, 12, 21, 1}
-	B3 := 6
-	output3 := maxTastiness(input3, B3)
-	fmt.Println(output3) // Output: 223
 }

@@ -1,4 +1,4 @@
-go 1.21.3
+go 1.21.5
 
 use (
 	./000-assignments/01-intermediate-dsa/004-introduction-to-problem-solving/count-factor
@@ -194,4 +194,7 @@ use (
 	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/max-sum-without-adjacent-elements
 	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/min-num-of-squares
 	./000-assignments/02-advanced-dsa/86-dynamic-programming-1/stairs
+	./000-assignments/02-advanced-dsa/87-dynamic-programming-2/dungeon-princess
+	./000-assignments/02-advanced-dsa/87-dynamic-programming-2/n-digit-number
+	./000-assignments/02-advanced-dsa/87-dynamic-programming-2/unique-binary-search-trees-ii
 )
