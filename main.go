@@ -1,79 +1,94 @@
 package main
 
-import (
-	"fmt"
-	"math"
-	"strings"
-)
+import "fmt"
 
-func countLetters(word string) int {
-	return len(strings.ReplaceAll(word, " ", ""))
-}
-
-func canFormWord(graph [][]int, letters []string, word string, visited map[int]bool) bool {
-
-	if word == "" {
-		return true
-	}
-	for i, letter := range letters {
-		fmt.Println("letter:", letter, "word:", word)
-		if letter == string(word[0]) && !visited[i] {
-			visited[i] = true
-
-			for range graph[i] {
-				if canFormWord(graph, letters, word[1:], visited) {
-					return true
-				}
-			}
-
-			visited[i] = false
-		}
-	}
-	return false
-}
-
-func scoreGame(graph [][]int, letters []string, words []string, isAlice bool) int {
-	score := math.MinInt32
-
-	for _, word := range words {
-		visited := make(map[int]bool)
-
-		fmt.Println(word)
-		if canFormWord(graph, letters, word, visited) {
-			wordLength := countLetters(word)
-			if (isAlice && wordLength%2 == 1) || (!isAlice && wordLength%2 == 0) {
-				score++
-			}
-		}
-	}
-
-	return score
-}
-
-func solve(A [][]int, B []string, C []string, D int) int {
-	graph := make([][]int, D)
-	for _, edge := range A {
-		graph[edge[0]] = append(graph[edge[0]], edge[1])
-		graph[edge[1]] = append(graph[edge[1]], edge[0])
-	}
-
-	aliceScore := scoreGame(graph, B, C, true)
-	bobScore := scoreGame(graph, B, C, false)
-
-	if aliceScore > bobScore || (aliceScore == bobScore && bobScore > 0) {
-		return 1
-	}
-
-	return 0
-}
-
+// write a program to print hello world
 func main() {
-	input1 := [][]int{{1, 0}, {2, 1}, {0, 2}}
-	letters1 := []string{"b", "c", "a"}
-	words1 := []string{"cc", "a", "bc"}
-	D1 := 3
-	output1 := solve(input1, letters1, words1, D1)
-	fmt.Println("Input 1:", input1)
-	fmt.Println("Output 1:", output1)
+	fmt.Println("Hello World")
+}
+
+/*
+Problem Description
+
+Write a program to input an integer N and a N*N matrix Mat from user and print the matrix in wave form (column wise)
+
+See example for clarifications regarding wave print.
+
+Note: Ensure there is a space character (' ') at the end of the line.
+
+# Problem Constraints
+
+1 <= N <= 103
+
+0 <= Mat[i][j] <= 109
+
+# Input Format
+
+# First line is an integer N
+
+# Next N lines contain N space separated integers representing the matrix Mat
+
+# Output Format
+
+A single line containing N*N integers of matrix Mat in wave form (column wise)
+
+# Example Input
+
+Input 1:
+
+3
+4 1 2
+7 4 4
+3 7 4
+Input 2:
+
+2
+1 2
+3 4
+
+# Example Output
+
+Output 1:
+
+4 7 3 7 4 1 2 4 4
+Output 2:
+
+1 3 4 2
+
+# Example Explanation
+
+For Input 1:
+We will first iterate the 1st column from top to bottom and print the elements,
+then we will iterate the 2nd column from botton to top and print the elements,
+then we will iterate the 3rd column from top to bottom and print the elements.
+For Input 2:
+We will first iterate the 1st column from top to bottom and print the elements,
+then we will iterate the 2nd column from bottom to top and print the elements.
+*/
+func main() {
+	var N int
+	fmt.Scan(&N)
+
+	mat := make([][]int, N)
+	for i := 0; i < N; i++ {
+		mat[i] = make([]int, N)
+		for j := 0; j < N; j++ {
+			fmt.Scan(&mat[i][j])
+		}
+	}
+
+	for j := 0; j < N; j++ {
+		if j%2 == 0 {
+			for i := 0; i < N; i++ {
+				fmt.Printf("%d ", mat[i][j])
+			}
+		} else {
+			for i := N - 1; i >= 0; i-- {
+				fmt.Printf("%d ", mat[i][j])
+			}
+		}
+	}
+
+	fmt.Println()
 
 }

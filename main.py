@@ -24,6 +24,7 @@ class Solution:
             return False
 
         alice_score = bob_score = 0
+        
         for word in C:
             for i in range(D):
                 if can_form_word(word, i, [False] * D):
@@ -34,6 +35,7 @@ class Solution:
                     break
 
         return int(alice_score > bob_score)
+
 
 
 if __name__ == "__main__":

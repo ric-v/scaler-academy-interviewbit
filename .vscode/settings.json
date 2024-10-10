@@ -4,5 +4,7 @@
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "python.formatting.provider": "none",
-    "remote.autoForwardPortsFallback": 0
+    "remote.autoForwardPortsFallback": 0,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "CodeGPT.Autocomplete.enabled": true
 }

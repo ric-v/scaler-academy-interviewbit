@@ -10,3 +10,4 @@ public class Student {
         System.out.println(name + " says hello to "+ nameparameter);
     }
 }
+
